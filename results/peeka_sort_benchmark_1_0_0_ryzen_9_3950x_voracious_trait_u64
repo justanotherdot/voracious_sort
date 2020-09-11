@@ -1,0 +1,54 @@
+
+running 1 test
+Number of iterations: 5
+=== Test u64 ===[1;34m	Peeka sort	[0m
+Array size: 1000000
+-- Unif       :[0;32m4128us[0m	[1;31m787ns[0m	([0;33m4.13ns[0m)	
+-- Unif 10^9  :[0;32m3148us[0m	[1;31m386ns[0m	([0;33m3.15ns[0m)	
+Array size: 5000000
+-- Unif       :[0;32m14524us[0m	[1;31m1038ns[0m	([0;33m2.90ns[0m)	
+-- Unif 10^9  :[0;32m14025us[0m	[1;31m615ns[0m	([0;33m2.81ns[0m)	
+Array size: 10000000
+-- Unif       :[0;32m26345us[0m	[1;31m1153ns[0m	([0;33m2.63ns[0m)	
+-- Unif 10^9  :[0;32m26210us[0m	[1;31m1256ns[0m	([0;33m2.62ns[0m)	
+Array size: 20000000
+-- Unif       :[0;32m54219us[0m	[1;31m2398ns[0m	([0;33m2.71ns[0m)	
+-- Unif 10^9  :[0;32m50746us[0m	[1;31m941ns[0m	([0;33m2.54ns[0m)	
+Array size: 50000000
+-- Unif       :[0;32m125245us[0m	[1;31m1742ns[0m	([0;33m2.50ns[0m)	
+-- Unif 10^9  :[0;32m113464us[0m	[1;31m1783ns[0m	([0;33m2.27ns[0m)	
+Array size: 100000000
+-- Unif       :[0;32m201599us[0m	[1;31m2126ns[0m	([0;33m2.02ns[0m)	
+-- Unif 10^9  :[0;32m193891us[0m	[1;31m623ns[0m	([0;33m1.94ns[0m)	
+Array size: 200000000
+-- Unif       :[0;32m462552us[0m	[1;31m2448ns[0m	([0;33m2.31ns[0m)	
+-- Unif 10^9  :[0;32m448841us[0m	[1;31m894ns[0m	([0;33m2.24ns[0m)	
+Array size: 300000000
+-- Unif       :[0;32m709877us[0m	[1;31m859ns[0m	([0;33m2.37ns[0m)	
+-- Unif 10^9  :[0;32m689097us[0m	[1;31m1082ns[0m	([0;33m2.30ns[0m)	
+Array size: 400000000
+-- Unif       :[0;32m983145us[0m	[1;31m1646ns[0m	([0;33m2.46ns[0m)	
+-- Unif 10^9  :[0;32m974892us[0m	[1;31m1200ns[0m	([0;33m2.44ns[0m)	
+Array size: 500000000
+-- Unif       :[0;32m1254822us[0m	[1;31m470ns[0m	([0;33m2.51ns[0m)	
+-- Unif 10^9  :[0;32m1258222us[0m	[1;31m1765ns[0m	([0;33m2.52ns[0m)	
+Array size: 600000000
+-- Unif       :[0;32m1534043us[0m	[1;31m1016ns[0m	([0;33m2.56ns[0m)	
+-- Unif 10^9  :test tests::speed_sort::speed_test_u64 ... test tests::speed_sort::speed_test_u64 has been running for over 60 seconds
+[0;32m1505999us[0m	[1;31m948ns[0m	([0;33m2.51ns[0m)	
+Array size: 700000000
+-- Unif       :[0;32m1864484us[0m	[1;31m2649ns[0m	([0;33m2.66ns[0m)	
+-- Unif 10^9  :[0;32m1843330us[0m	[1;31m1816ns[0m	([0;33m2.63ns[0m)	
+Array size: 800000000
+-- Unif       :[0;32m2113241us[0m	[1;31m582ns[0m	([0;33m2.64ns[0m)	
+-- Unif 10^9  :[0;32m2130988us[0m	[1;31m1501ns[0m	([0;33m2.66ns[0m)	
+Array size: 900000000
+-- Unif       :[0;32m2474502us[0m	[1;31m846ns[0m	([0;33m2.75ns[0m)	
+-- Unif 10^9  :[0;32m2404237us[0m	[1;31m1339ns[0m	([0;33m2.67ns[0m)	
+Array size: 1000000000
+-- Unif       :[0;32m2765527us[0m	[1;31m2111ns[0m	([0;33m2.77ns[0m)	
+-- Unif 10^9  :[0;32m2731763us[0m	[1;31m922ns[0m	([0;33m2.73ns[0m)	
+test tests::speed_sort::speed_test_u64 ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 4 filtered out
+

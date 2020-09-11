@@ -1,0 +1,99 @@
+
+running 1 test
+Number of iterations: 5
+=== Test u32 ===[1;34m	Peeka sort	[0m
+Array size: 1000000
+-- Unif       :[0;32m8425us[0m	[1;31m1370ns[0m	([0;33m8.43ns[0m)	
+-- Unif 10^9  :[0;32m7493us[0m	[1;31m997ns[0m	([0;33m7.49ns[0m)	
+-- Normale 10 :[0;32m7137us[0m	[1;31m1187ns[0m	([0;33m7.14ns[0m)	
+-- Normale 20 :[0;32m6790us[0m	[1;31m795ns[0m	([0;33m6.79ns[0m)	
+-- Normale 30 :[0;32m8821us[0m	[1;31m1281ns[0m	([0;33m8.82ns[0m)	
+Array size: 5000000
+-- Unif       :[0;32m11846us[0m	[1;31m505ns[0m	([0;33m2.37ns[0m)	
+-- Unif 10^9  :[0;32m13588us[0m	[1;31m195ns[0m	([0;33m2.72ns[0m)	
+-- Normale 10 :[0;32m8470us[0m	[1;31m425ns[0m	([0;33m1.69ns[0m)	
+-- Normale 20 :[0;32m11781us[0m	[1;31m747ns[0m	([0;33m2.36ns[0m)	
+-- Normale 30 :[0;32m14329us[0m	[1;31m1600ns[0m	([0;33m2.87ns[0m)	
+Array size: 10000000
+-- Unif       :[0;32m22803us[0m	[1;31m534ns[0m	([0;33m2.28ns[0m)	
+-- Unif 10^9  :[0;32m22087us[0m	[1;31m446ns[0m	([0;33m2.21ns[0m)	
+-- Normale 10 :[0;32m11348us[0m	[1;31m526ns[0m	([0;33m1.13ns[0m)	
+-- Normale 20 :[0;32m13694us[0m	[1;31m258ns[0m	([0;33m1.37ns[0m)	
+-- Normale 30 :[0;32m20076us[0m	[1;31m862ns[0m	([0;33m2.01ns[0m)	
+Array size: 20000000
+-- Unif       :[0;32m41592us[0m	[1;31m872ns[0m	([0;33m2.08ns[0m)	
+-- Unif 10^9  :[0;32m37956us[0m	[1;31m335ns[0m	([0;33m1.90ns[0m)	
+-- Normale 10 :[0;32m18604us[0m	[1;31m235ns[0m	([0;33m0.93ns[0m)	
+-- Normale 20 :[0;32m21717us[0m	[1;31m327ns[0m	([0;33m1.09ns[0m)	
+-- Normale 30 :[0;32m30304us[0m	[1;31m366ns[0m	([0;33m1.52ns[0m)	
+Array size: 50000000
+-- Unif       :[0;32m67756us[0m	[1;31m42ns[0m	([0;33m1.36ns[0m)	
+-- Unif 10^9  :[0;32m66864us[0m	[1;31m397ns[0m	([0;33m1.34ns[0m)	
+-- Normale 10 :[0;32m46232us[0m	[1;31m252ns[0m	([0;33m0.92ns[0m)	
+-- Normale 20 :[0;32m58689us[0m	[1;31m588ns[0m	([0;33m1.17ns[0m)	
+-- Normale 30 :[0;32m59563us[0m	[1;31m97ns[0m	([0;33m1.19ns[0m)	
+Array size: 100000000
+-- Unif       :[0;32m114073us[0m	[1;31m949ns[0m	([0;33m1.14ns[0m)	
+-- Unif 10^9  :[0;32m116424us[0m	[1;31m941ns[0m	([0;33m1.16ns[0m)	
+-- Normale 10 :[0;32m97272us[0m	[1;31m676ns[0m	([0;33m0.97ns[0m)	
+-- Normale 20 :[0;32m112304us[0m	[1;31m143ns[0m	([0;33m1.12ns[0m)	
+-- Normale 30 :[0;32m140323us[0m	[1;31m1106ns[0m	([0;33m1.40ns[0m)	
+Array size: 200000000
+-- Unif       :[0;32m275731us[0m	[1;31m742ns[0m	([0;33m1.38ns[0m)	
+-- Unif 10^9  :[0;32m257657us[0m	[1;31m684ns[0m	([0;33m1.29ns[0m)	
+-- Normale 10 :[0;32m199661us[0m	[1;31m388ns[0m	([0;33m1.00ns[0m)	
+-- Normale 20 :[0;32m243685us[0m	[1;31m1120ns[0m	([0;33m1.22ns[0m)	
+-- Normale 30 :[0;32m257429us[0m	[1;31m362ns[0m	([0;33m1.29ns[0m)	
+Array size: 300000000
+-- Unif       :[0;32m444018us[0m	[1;31m7464ns[0m	([0;33m1.48ns[0m)	
+-- Unif 10^9  :[0;32m396593us[0m	[1;31m1746ns[0m	([0;33m1.32ns[0m)	
+-- Normale 10 :[0;32m323738us[0m	[1;31m1619ns[0m	([0;33m1.08ns[0m)	
+-- Normale 20 :[0;32m367540us[0m	[1;31m1862ns[0m	([0;33m1.23ns[0m)	
+-- Normale 30 :[0;32m373011us[0m	[1;31m943ns[0m	([0;33m1.24ns[0m)	
+Array size: 400000000
+-- Unif       :[0;32m499437us[0m	[1;31m1037ns[0m	([0;33m1.25ns[0m)	
+-- Unif 10^9  :[0;32m488101us[0m	[1;31m1368ns[0m	([0;33m1.22ns[0m)	
+-- Normale 10 :[0;32m415837us[0m	[1;31m1006ns[0m	([0;33m1.04ns[0m)	
+-- Normale 20 :[0;32m507601us[0m	[1;31m1563ns[0m	([0;33m1.27ns[0m)	
+-- Normale 30 :[0;32m536577us[0m	[1;31m968ns[0m	([0;33m1.34ns[0m)	
+Array size: 500000000
+-- Unif       :[0;32m639148us[0m	[1;31m1479ns[0m	([0;33m1.28ns[0m)	
+-- Unif 10^9  :[0;32m648387us[0m	[1;31m3371ns[0m	([0;33m1.30ns[0m)	
+-- Normale 10 :test tests::speed_sort::speed_test_u32 ... test tests::speed_sort::speed_test_u32 has been running for over 60 seconds
+[0;32m542206us[0m	[1;31m371ns[0m	([0;33m1.08ns[0m)	
+-- Normale 20 :[0;32m630976us[0m	[1;31m345ns[0m	([0;33m1.26ns[0m)	
+-- Normale 30 :[0;32m734682us[0m	[1;31m326ns[0m	([0;33m1.47ns[0m)	
+Array size: 600000000
+-- Unif       :[0;32m776181us[0m	[1;31m925ns[0m	([0;33m1.29ns[0m)	
+-- Unif 10^9  :[0;32m739473us[0m	[1;31m672ns[0m	([0;33m1.23ns[0m)	
+-- Normale 10 :[0;32m657480us[0m	[1;31m459ns[0m	([0;33m1.10ns[0m)	
+-- Normale 20 :[0;32m777218us[0m	[1;31m631ns[0m	([0;33m1.30ns[0m)	
+-- Normale 30 :[0;32m931159us[0m	[1;31m546ns[0m	([0;33m1.55ns[0m)	
+Array size: 700000000
+-- Unif       :[0;32m911541us[0m	[1;31m1372ns[0m	([0;33m1.30ns[0m)	
+-- Unif 10^9  :[0;32m898182us[0m	[1;31m2207ns[0m	([0;33m1.28ns[0m)	
+-- Normale 10 :[0;32m777015us[0m	[1;31m1139ns[0m	([0;33m1.11ns[0m)	
+-- Normale 20 :[0;32m901758us[0m	[1;31m404ns[0m	([0;33m1.29ns[0m)	
+-- Normale 30 :[0;32m1121496us[0m	[1;31m464ns[0m	([0;33m1.60ns[0m)	
+Array size: 800000000
+-- Unif       :[0;32m1053286us[0m	[1;31m551ns[0m	([0;33m1.32ns[0m)	
+-- Unif 10^9  :[0;32m1036991us[0m	[1;31m951ns[0m	([0;33m1.30ns[0m)	
+-- Normale 10 :[0;32m918865us[0m	[1;31m661ns[0m	([0;33m1.15ns[0m)	
+-- Normale 20 :[0;32m1045883us[0m	[1;31m294ns[0m	([0;33m1.31ns[0m)	
+-- Normale 30 :[0;32m1302662us[0m	[1;31m886ns[0m	([0;33m1.63ns[0m)	
+Array size: 900000000
+-- Unif       :[0;32m1203923us[0m	[1;31m446ns[0m	([0;33m1.34ns[0m)	
+-- Unif 10^9  :[0;32m1188096us[0m	[1;31m1365ns[0m	([0;33m1.32ns[0m)	
+-- Normale 10 :[0;32m1037939us[0m	[1;31m621ns[0m	([0;33m1.15ns[0m)	
+-- Normale 20 :[0;32m1186033us[0m	[1;31m334ns[0m	([0;33m1.32ns[0m)	
+-- Normale 30 :[0;32m1495840us[0m	[1;31m1157ns[0m	([0;33m1.66ns[0m)	
+Array size: 1000000000
+-- Unif       :[0;32m1371601us[0m	[1;31m1099ns[0m	([0;33m1.37ns[0m)	
+-- Unif 10^9  :[0;32m1349757us[0m	[1;31m3127ns[0m	([0;33m1.35ns[0m)	
+-- Normale 10 :[0;32m1143742us[0m	[1;31m886ns[0m	([0;33m1.14ns[0m)	
+-- Normale 20 :[0;32m1333002us[0m	[1;31m1405ns[0m	([0;33m1.33ns[0m)	
+-- Normale 30 :[0;32m1675753us[0m	[1;31m723ns[0m	([0;33m1.68ns[0m)	
+test tests::speed_sort::speed_test_u32 ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 5 filtered out
+
