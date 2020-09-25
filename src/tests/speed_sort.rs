@@ -98,13 +98,14 @@ fn helper_sort<T, K>(
         "Voracious v0.1.0",
     ];
 
-    let runs = 20;
-    // let thread_n = 16;
+    let runs = 5;
+    let thread_n = 16;
     let with_check = false;
 
     let sizes: Vec<usize> = vec![
-        500,1_000, 2_000,5_000,10_000,50_000,100_000,500_000,1_000_000,5_000_000, 10_000_000,
-        // 1000000,5000000,10000000,20000000,50000000,100000000,200000000
+        // 500,1_000, 2_000,5_000,10_000,50_000,100_000,500_000,1_000_000,5_000_000, 10_000_000,
+        1_000_000,5_000_000,10_000_000,20_000_000,50_000_000,
+        // 100_000_000,200_000_000,
         // 10, 30, 50, 70, 100
         // 130,150,170,200,230,250,
         // 300,350,400,500,600,700,800,900,
@@ -129,11 +130,11 @@ fn helper_sort<T, K>(
         // 50_000_000,
         // 60_000_000,
         // 70_000_000,80_000_000,90_000_000,
-        // 100_000_000,
-        // 200_000_000,300_000_000,400_000_000,
-        // 500_000_000,600_000_000,700_000_000,800_000_000,900_000_000,
+        100_000_000,
+        200_000_000,300_000_000,400_000_000,
+        500_000_000,600_000_000,700_000_000,800_000_000,900_000_000,
         // 500_000_000,
-        // 1_000_000_000,
+        1_000_000_000,
     ];
 
     println!("Number of iterations: {}", runs);
@@ -150,12 +151,12 @@ fn helper_sort<T, K>(
         for (generator, gen_name) in generators.iter() {
             print!("{}", gen_name);
             // helper_sort_aux(&|arr: &mut [T]| arr.voracious_stable_sort(),runs,*size,generator, with_check);
-            // helper_sort_aux(&|arr: &mut [T]| arr.voracious_mt_sort(thread_n),runs,*size,generator,with_check);
+            helper_sort_aux(&|arr: &mut [T]| arr.voracious_mt_sort(thread_n),runs,*size,generator,with_check);
             // helper_sort_aux(&|arr: &mut [T]| arr.sort(), runs, *size, generator, with_check);
             // helper_sort_aux(&|arr: &mut [T]| arr.sort_unstable(),runs,*size,generator, with_check);
             // helper_sort_aux(&|arr: &mut [T]| arr.sort_by(|a, b| a.partial_cmp(b).unwrap()), runs, *size, generator, with_check);
-            helper_sort_aux(&|arr: &mut [T]| arr.sort_unstable_by(|a, b| a.partial_cmp(b).unwrap()), runs, *size, generator, with_check);
-            helper_sort_aux(&|arr: &mut [T]| arr.voracious_sort(),runs,*size,generator,with_check);
+            // helper_sort_aux(&|arr: &mut [T]| arr.sort_unstable_by(|a, b| a.partial_cmp(b).unwrap()), runs, *size, generator, with_check);
+            // helper_sort_aux(&|arr: &mut [T]| arr.voracious_sort(),runs,*size,generator,with_check);
             // helper_sort_aux(&|arr: &mut [T]| counting_sort(arr, 8),runs,*size,generator, with_check);
             // helper_sort_aux(&|arr: &mut [T]| insertion_sort(arr),runs,*size,generator, with_check);
             // helper_sort_aux(&|arr: &mut [T]| rollercoaster_sort(arr, 8),runs,*size,generator, with_check);

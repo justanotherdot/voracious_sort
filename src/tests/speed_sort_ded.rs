@@ -18,21 +18,11 @@ fn speed_dedicated<T, K>(
     T: Radixable<K> + std::fmt::Debug,
     K: RadixKey,
 {
-    let runs = 3;
-    let with_check = true;
+    let runs = 50;
+    let with_check = false;
 
     let sizes: Vec<usize> = vec![
-        100,
-        1000,
-        10000,
-        100_000,
-        1_000_000,
-        5_000_000,
-        10_000_000,
-        50_000_000,
-        100_000_000,
-        500_000_000,
-        1_000_000_000,
+        500,1_000, 2_000,5_000,10_000,50_000,100_000,500_000,1_000_000,5_000_000, 10_000_000,
     ];
 
     println!("Number of iterations: {}", runs);
